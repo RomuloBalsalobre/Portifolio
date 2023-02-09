@@ -9,9 +9,8 @@ html, body {
 }
 
 .prompt-container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+
+  display: relative;
   padding: 10px;
 }
 
@@ -124,6 +123,16 @@ html, body {
   justify-content: space-between;
 }
 
+.generalskills{
+  display: flex;
+  position: absolute;
+  height: 400px;
+  width: 730px;
+  top: 230px;
+  left:10px;
+  justify-content: space-between;
+}
+
 .program{
   font-family: 'Inter';
   font-style: normal;
@@ -196,6 +205,26 @@ html, body {
   justify-content: space-between;
 }
 
+.extra{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  height: 200px;
+  width: 150px;
+}
+
+.extral{
+  display: flex;
+  position: absolute;
+  top:20px;
+  left: 100px;
+  width: 300px;
+  justify-content: space-between;
+}
+
 .listaextra{
   position: relative;
   top:80px;
@@ -204,10 +233,10 @@ html, body {
 }
 
 .barextra{
-  position: absolute;
+  position: relative;
   width: 300px;
-  top:50px;
-  left:690px;
+  top:220px;
+  left:120px;
   height: 100px;
   font-weight: 400;
 }
