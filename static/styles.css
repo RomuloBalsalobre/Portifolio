@@ -196,6 +196,23 @@ html, body {
   justify-content: space-between;
 }
 
+.listaextra{
+  position: relative;
+  top:80px;
+  width: 100px;
+  text-align: right;
+}
+
+.barextra{
+  position: absolute;
+  width: 300px;
+  top:50px;
+  left:690px;
+  height: 100px;
+  font-weight: 400;
+}
+
+
 .block {
   width: 80px;
   height: 15px;
